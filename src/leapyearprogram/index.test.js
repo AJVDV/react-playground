@@ -1,6 +1,6 @@
 // Use this line to import the function, made possible by
 // the export default line in the other file
-import leapYear  from './index';
+/*import leapYear  from './index';
 
 it('should NOT be a leap year if divisible by 100, not 400', () => {
   const input = 1900;
@@ -21,7 +21,7 @@ it('should NOT be a leap year if divisible by 100, not 400', () => {
     const actualOutput = leapYear(input);
     expect(actualOutput).toBe(expectedOutput);
   });
-//import leapYear  from './index';
+//import leapYear  from './index'; 
 
 it('should NOT be a leap year if divisible by 100, not 400', () => {
     const input = 1900;
@@ -55,4 +55,4 @@ it('should throw an error for years before 1582', () => {
   expect(() => {
     leapYear(1568);
   }).toThrow();
-});
+}); */

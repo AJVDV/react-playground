@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
+import Accordion from './state-drills/Accordion/Accordion';
 //import Tabs from './state/Tabs';
 //import Tooltip from './composition/Tooltip';
 //import React, { Component } from 'react';
-import HelloWorld from './state-drills/HelloWorld';
-import Bomb from './state-drills/Bomb';
-import RouletteGun from './state-drills/RouletteGun';
-import Accordion from './state-drills/Accordion/Accordion'
-/*
+//import HelloWorld from './state-drills/HelloWorld';
+//import Bomb from './state-drills/Bomb';
+//import RouletteGun from './state-drills/RouletteGun';
+//import Accordion from './state-drills/Accordion/Accordion'
+//import Tabs from './state/Tabs';
+//import DemonymApp from './demonymapp/demonymApp';
+//import Counter from './state/Counter'
 
+
+/*
 const firstTooltip = (
   <Tooltip color='hotpink' message='tooltip message'>
     ipsum
@@ -20,7 +25,7 @@ const secondTooltip = (
   </Tooltip> 
 )
 */
-//import './App.css';
+
 
 const sections = [
   {
@@ -37,17 +42,12 @@ const sections = [
   },
 ]
 
+
+
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h2>Hello World</h2>
-        <HelloWorld />
-        <h2>Bomb</h2>
-        <Bomb />
-        <h2>Roulette Gun</h2>
-        <RouletteGun bulletInChamber={6} />
-        <h2>Accordion</h2>
         <Accordion sections={sections} />
       </div>
     );
